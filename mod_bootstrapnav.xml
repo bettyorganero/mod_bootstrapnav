@@ -56,13 +56,16 @@
 				<field
 					name="color"
 					type="list"
-					default="navbar-white"
+					default="navbar-default"
 					label="MOD_MENU_FIELD_NAV_COLOR_LABEL"
 					description="MOD_MENU_FIELD_NAV_COLOR_DESC">
+					
 					<option
-						value="navbar-white">Light</option>
-					<option
+						value="navbar-default">Light Gray</option>
+						<option
 						value="navbar-inverse">Dark</option>
+					<option
+						value="navbar-white">White</option>
 				</field>
 
 				<field
@@ -95,7 +98,7 @@
 				<field
 					name="brand_type"
 					type="list"
-					default="none"
+					default="text"
 					label="Branding Type"
 					description="Choose type of branding. None, image or text">
 					<option
